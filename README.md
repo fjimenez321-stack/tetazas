@@ -5,7 +5,7 @@ Todo con tu **cuenta personal de Gmail**. Toma unos 15 minutos.
 ## 1. Drive
 1. Crea una carpeta **Catálogo tazas**. Sube ahí las fotos de tus diseños.
    - Nombre del archivo = nombre y precio: `Gato astronauta_3500.jpg`
-   - Sin precio → se usa $4.000. Ningún tazón baja de $4.000 (`MIN_PRICE`), aunque el archivo diga menos.
+   - Sin precio → se usa $3.500. Ningún tazón baja de $3.500 (`MIN_PRICE`), aunque el archivo diga menos.
    - Subcarpetas (`Animales`, `Frases`…) = categorías del sitio.
 2. Crea otra carpeta **Pedidos tazas** (ahí quedan las fotos que suban los clientes). Esta NO se comparte.
 3. Copia el ID de cada carpeta: es lo que va después de `/folders/` en la URL.

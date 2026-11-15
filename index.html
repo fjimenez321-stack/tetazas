@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Té-tazas</title>
-<meta name="description" content="Tazones personalizados desde $4.000. Entrega en estaciones o retiro en Recreo, Viña del Mar.">
+<meta name="description" content="Tazones personalizados desde $3.500. Entrega en estaciones o retiro en Recreo, Viña del Mar.">
 <link rel="icon" href="img/icono.png">
 <link rel="manifest" href="manifest.webmanifest">
 <meta name="theme-color" content="#f6f1e8">
@@ -345,7 +345,7 @@ footer img.foot-logo{width:120px;height:auto}
   <div>
     <img class="hero-logo" src="img/logo-pincel.webp" alt="Té-tazas">
     <div class="eyebrow">Sublimados en Viña del Mar</div>
-    <h1>Tazones personalizados <span>desde $4.000</span></h1>
+    <h1>Tazones personalizados <span>desde $3.500</span></h1>
     <p>Elige tus diseños, agrégalos al carrito y deja tu pedido en un minuto. Si quieres tu propia foto o un nombre, lo indicas al pedir.</p>
     <div class="pills">
       <span class="pill" id="pillMin">Mínimo 2 unidades</span>
@@ -665,7 +665,7 @@ function demoProducts(){
        <rect x="95" y="150" width="170" height="110" fill="${color}"/></g>
        <text x="${flip ? 220 : 180}" y="225" font-size="64" text-anchor="middle">${emoji}</text></svg>`);
   return designs.map(([name, category, color, emoji], i) => ({
-    id: 'demo' + i, name, category, price: i > 5 ? 4500 : 4000,
+    id: 'demo' + i, name, category, price: i > 5 ? 4000 : 3500,
     imgs: i === 0 ? [pic(color, emoji), pic(color, emoji, true), pic('#1d1b22', '🚀')] : [pic(color, emoji)],
     desc: i === 0 ? 'Para quienes miran las estrellas antes del primer café.\n\n- Cerámica blanca 11 oz\n- Apto para microondas\n- **Impresión a todo color**' :
           i === 6 ? 'Envíanos tu foto al hacer el pedido y la ajustamos al tazón.' : '',

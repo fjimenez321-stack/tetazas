@@ -21,8 +21,8 @@ const CONFIG = {
   ORDERS_FOLDER_ID:  '1cuKOlwFcVWMmhl4BWhmPavD8sES35b14',
   NOTIFY_EMAIL: '',      // tu correo para recibir aviso de cada pedido ('' = sin aviso)
   MIN_UNITS: 2,          // pedido mínimo (unidades en total)
-  DEFAULT_PRICE: 4000,   // precio si el archivo no lo indica
-  MIN_PRICE: 4000,       // ningún tazón baja de este precio, aunque el archivo diga menos
+  DEFAULT_PRICE: 3500,   // precio si el archivo no lo indica
+  MIN_PRICE: 3500,       // ningún tazón baja de este precio, aunque el archivo diga menos
   DEPOSIT_PCT: 50,       // % de abono por transferencia
   SHEET_NAME: 'Pedidos',
   CACHE_SECONDS: 600,    // el catálogo se refresca cada 10 min
