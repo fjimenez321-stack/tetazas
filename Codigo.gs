@@ -19,7 +19,7 @@
 const CONFIG = {
   CATALOG_FOLDER_ID: '1pSr1GfUFDNqJjatdlYCVNpmUZXuAbvsP',
   ORDERS_FOLDER_ID:  '1cuKOlwFcVWMmhl4BWhmPavD8sES35b14',
-  NOTIFY_EMAIL: '',      // tu correo para recibir aviso de cada pedido ('' = sin aviso)
+  NOTIFY_EMAIL: 'fjimenez321@gmail.com',      // tu correo para recibir aviso de cada pedido ('' = sin aviso)
   MIN_UNITS: 2,          // pedido mínimo (unidades en total)
   DEFAULT_PRICE: 3500,   // precio si el archivo no lo indica
   MIN_PRICE: 3500,       // ningún tazón baja de este precio, aunque el archivo diga menos
